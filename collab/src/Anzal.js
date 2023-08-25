@@ -1,4 +1,3 @@
-
 function Anzal(){
     return <div>
         <h1>Hi, my name is Anzal Abdinoor</h1>
