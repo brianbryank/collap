@@ -1,17 +1,14 @@
-import React from "react";
-import { Link } from React-router-dom;
-import Abdi from './Abdi.js';
+import React from 'react';
+import { Link } from "react-router-dom"
 
-function Abdi(){
+function AbdiComponent() {
     return (
-    <div>
-        <h1>
-            This is my commponent
-        </h1>
-        <p>The component at 4^4 </p>
-        <link to="/Abdi">Abdi</link>
-    <Abdi/>
-    </div>
+        <div>
+            <h1>This is my component</h1>
+            <p>The component at 4^4 </p>
+            <Link to="/abdi">Abdi</Link>
+        </div>
     );
 }
-export default Abdi;
+
+export default AbdiComponent;
