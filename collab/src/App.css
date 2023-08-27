@@ -1,49 +1,50 @@
-/* App.css */
-
-/* Style the overall app container */
 .App {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #f7e4e4;
-  padding: 0.5%;
+  background: #b0a7a7;
+  padding: 0%;
+  background-size: cover;
+  bottom: 10%;
 }
 
-/* Style the navigation links */
 nav {
-  background-color: #158d87;
-  padding: 15px;
+  background-color: #1d7f7a;
+  padding: 40px;
 }
 
 nav a {
-  color: rgb(52, 52, 130);
-  text-decoration: none;
-  margin: 0 10px;
+  color: rgb(10, 62, 59);
+  text-decoration-style: solid;
+  margin: 0 30px;
+  background-color: #d1e2ea;
+  text-shadow: #4c0a0a;
 }
 
-/* Style the navigation links on hover */
+
 nav a:hover {
   text-decoration: underline;
+  text-size-adjust: 20px;
 }
 
-/* Style the content section */
+
 .content {
   padding: 10px;
 }
 
 /* Style the page titles */
 h1 {
-  color: #604848;
+  color: #732d2d;
   margin-bottom: 10px;
 }
 
-/* Style the paragraphs */
+
 p {
-  color: #666;
+  color: #285060;
 }
 
 /* Style the links within the content */
 .content a {
-  color: #007bff;
+  color: #93bce8;
   text-decoration: none;
 }
 
